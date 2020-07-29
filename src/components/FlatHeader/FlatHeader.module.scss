@@ -1,0 +1,21 @@
+.flat__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+
+
+  .flat__logo_like {
+    width: 30px;
+    cursor: pointer;
+  }
+  svg {
+    fill: #fff;
+  }
+
+  .flat__logo_liked {
+    svg {
+      fill: red;
+    }
+  }
+}

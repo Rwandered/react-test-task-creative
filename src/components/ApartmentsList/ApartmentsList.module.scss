@@ -1,0 +1,12 @@
+.apartments__row {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+@media(min-width: 1300px) {
+  .apartments__row {
+    justify-content: normal;
+  }
+}

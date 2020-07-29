@@ -1,0 +1,22 @@
+.flat__info {
+
+  .flat__area {
+    display: flex;
+
+    .flat__area__param {
+      border-right: 1px solid #ccc;
+      padding: 0 5px 5px 0;
+      margin-right: 5px;
+
+      &:last-child {
+        border-right: none;
+        margin-right: 0;
+      }
+    }
+  }
+
+}
+
+.flat__address {
+  font-size: 14px;
+}
